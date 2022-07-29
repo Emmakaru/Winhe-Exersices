@@ -1,8 +1,0 @@
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\obj\Debug\Excercise - 4 (Q1).csproj.AssemblyReference.cache
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\obj\Debug\Excercise - 4 (Q1).csproj.SuggestedBindingRedirects.cache
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\obj\Debug\Excercise - 4 (Q1).csproj.CoreCompileInputs.cache
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\bin\Debug\Excercise - 4 (Q1).exe.config
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\bin\Debug\Excercise - 4 (Q1).exe
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\bin\Debug\Excercise - 4 (Q1).pdb
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\obj\Debug\Excercise - 4 (Q1).exe
-F:\visual studio comm\project folder saving there\Excercise - 4 (Q1)\obj\Debug\Excercise - 4 (Q1).pdb

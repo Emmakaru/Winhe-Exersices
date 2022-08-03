@@ -1,0 +1,56 @@
+//Author = Lasantha Karunarathne
+//Winhe academy
+
+/*Question A*/
+
+//a
+
+select * from employee;
+
+//b
+
+select EName, Job, HireDate
+from employee;
+
+//c
+
+select * from Department;
+
+//d
+select dname, location
+from department;
+
+//e
+select * 
+from employee
+where salary > 1500;
+
+//f
+
+select *
+from department
+where location = 'Dallas';
+
+//g
+
+select Ename, Job, Salary
+from employee
+where DeptNo = '20';
+
+//h
+
+select *
+from department
+where NOT Location = 'New York';
+
+//i
+
+select Ename, Job, Salary
+from employee
+where Salary > 2000 AND DeptNO = '30';
+
+//j
+
+select EName EmployeeNO, Job, Salary
+from employee
+where DeptNO = '20' OR Salary = 2500;

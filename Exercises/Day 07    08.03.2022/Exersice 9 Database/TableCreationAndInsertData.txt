@@ -1,0 +1,45 @@
+//Author = Lasantha Karunarathne
+//Winhe academy
+
+/* Table Creation and Enter Data*/
+
+CREATE DATABASE company;
+
+CREATE TABLE Department (
+	DepartmentNO VARCHAR (2) NOT NULL,
+    Dname VARCHAR (20),
+    Location VARCHAR (50),
+    CONSTRAINT PK_Department PRIMARY KEY (DepartmentNO) 
+);
+
+CREATE TABLE Employee (
+	EmployeeNO VARCHAR (4) NOT NULL,
+    EName VARCHAR (20),
+    Job VARCHAR (20),
+    Manager VARCHAR (4),
+    HireDate DATE ,
+    Salary DECIMAL,
+    Commission DECIMAL,
+    DeptNO VARCHAR (2),
+    CONSTRAINT PK_Employee PRIMARY KEY (EmployeeNO),
+    CONSTRAINT FK_EmployeeDepartment FOREIGN KEY (DeptNO)
+    REFERENCES Department(DepartmentNO)
+);
+    
+    
+CREATE TABLE SalaryGrade (
+	Grade VARCHAR (1) NOT NULL,
+    LowSalary VARCHAR (10),
+    HighSalary VARCHAR (10),
+    CONSTRAINT PK_SalaryGrade PRIMARY KEY (Grade)
+);
+
+INSERT INTO Employee (EmployeeNO, EName, Job, Manager, HireDate, Salary, Commission, DeptNO)
+VALUES ('7369', 'Smith', 'Clerk', '7302', '1983-06-13', 800, null, '20');
+
+
+INSERT INTO Department(DepartmentNO, Dname, Location)
+VALUE ('10', 'Accounting', 'New York');
+
+INSERT INTO SalaryGrade(Grade, LowSalary, HighSalary)
+VALUE ('1', '700', '1200');

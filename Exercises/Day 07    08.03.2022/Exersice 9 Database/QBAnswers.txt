@@ -1,0 +1,56 @@
+//Author = Lasantha Karunarathne
+//Winhe academy
+
+
+/*Question B*/
+
+//a
+
+select Ename, DeptNO, Salary
+from employee
+where Salary BETWEEN 1000 AND 2000; 
+
+//b
+
+select Job
+from employee
+group by Job;
+
+//c
+
+select *
+from employee
+where DeptNo IN (10, 20);
+
+//d
+
+select e.EName, d.Dname, e.HireDate
+from employee e, department d
+where e.DeptNO = d.DepartmentNO AND e.HireDate LIKE '1983%';
+
+//e
+
+select EName, Job
+from employee
+where DeptNO = '20' AND Job = 'Clerk';
+
+//f
+
+select EName
+from employee
+where EName LIKE '%TH%' OR '%LL%';
+
+//g
+select DepartmentNo, Dname
+from department
+order by Dname ASC;
+
+//h
+
+select * from salarygrade;
+ 
+//i
+
+select EName, Job, Salary, Commission
+from employee
+where Manager IS NULL;

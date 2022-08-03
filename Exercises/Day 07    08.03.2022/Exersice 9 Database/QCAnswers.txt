@@ -1,0 +1,41 @@
+//Author = Lasantha Karunarathne
+//Winhe academy
+
+Question C
+
+//j
+
+select EName, DeptNO, Location
+from department d, employee e
+where d.DepartmentNO = e.DeptNO AND Salary > 1500;  
+
+//k
+
+select e.EName, e.Job, e.Salary, s.grade
+from employee e, salarygrade s
+where e.salary > s.LowSalary AND e.salary < s.HighSalary; 
+
+//l
+
+select e.EName, e.Job, e.Salary, s.grade
+from employee e, salarygrade s
+where e.salary > s.LowSalary AND e.salary < s.HighSalary AND s.grade = '3'; 
+
+//m
+
+select e.EName, e.Job, e.Salary, s.grade, d.Dname
+from employee e, salarygrade s, department d
+where e.DeptNO = d.DepartmentNO AND e.salary > s.LowSalary AND e.salary < s.HighSalary
+order by s.grade ASC;
+
+//n
+
+select EName, Salary 
+from department d, employee e
+where d.DepartmentNO = e.DeptNO AND Location = 'Dallas';
+
+//q
+
+select Ename AS "EmployeeName", Manager AS "Manager Number"
+from employee;
+

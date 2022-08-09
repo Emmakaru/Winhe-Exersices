@@ -1,0 +1,5 @@
+Day Tasks
+
+Install Microsoft Sql Server.               Done
+Install Microsoft Managment Studio.         Done
+Practice Pre-Actitvity.                     Done
